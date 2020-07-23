@@ -5,6 +5,5 @@
 create your `.env` file and then run
 
 ```bash
-npm i
-npm start
+npm i && npm start
 ```
