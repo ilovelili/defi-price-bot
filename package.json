@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "engines": {
-    "node": "10.x"
+    "node": "12.x"
   },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.0.35",
+    "@truffle/hdwallet-provider": "^1.1.0",
     "console.table": "^0.10.0",
     "dotenv": "^8.2.0",
-    "infura-web3-provider": "0.0.3",
-    "moment": "^2.25.3",
-    "moment-timezone": "^0.5.28"
+    "infura-web3-provider": "^0.0.3",
+    "moment": "^2.28.0",
+    "moment-timezone": "^0.5.31"
+  },
+  "devDependencies": {
+    "@types/web3": "^1.2.2"
   }
 }
