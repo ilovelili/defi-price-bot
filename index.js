@@ -27,7 +27,7 @@ async function checkPair(args) {
 			"Uniswap Return": web3.utils.fromWei(uniswapResult, "Ether"),
 			"Kyber Expected Rate": web3.utils.fromWei(kyberResult.expectedRate, "Ether"),
 			"Kyber Min Return": web3.utils.fromWei(kyberResult.slippageRate, "Ether"),
-			Timestamp: moment().tz("Japan/Tokyo").format(),
+			Timestamp: moment().tz("Asia/Tokyo").format(),
 		},
 	]);
 }
